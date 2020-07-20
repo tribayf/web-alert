@@ -1,0 +1,11 @@
+.*
+!.gitignore
+
+### nodejs ###
+node_modules
+package-lock.json
+
+### private ###
+.env
+*.html
+parser-impl.js

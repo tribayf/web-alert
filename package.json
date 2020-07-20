@@ -1,0 +1,28 @@
+{
+  "name": "web-alert",
+  "version": "1.0.0",
+  "description": "none",
+  "repository": "http://github.com/tribayf/web-alert",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --trace-warnings --unhandled-rejections=strict src/server.js",
+    "test": "jest --runInBand --detectOpenHandles",
+    "watch": "jest --watchAll"
+  },
+  "author": "@tribayf",
+  "license": "ISC",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.10",
+    "puppeteer": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-puppeteer": "^4.4.0",
+    "jsdom": "^16.3.0"
+  }
+}
